@@ -134,3 +134,52 @@ header::after {
   background-color: #282828;
   color: #fff;
 }
+
+.name {
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.menu_item {
+  max-width: 280px;
+  height: 400px;
+  text-align: center;
+  font-weight: 600;
+}
+.menu_item .menu_item_info {
+  color: #717171;
+}
+.menu_item h4 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.menu_item img {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+.menu_item .menu_item_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.menu_item .menu_item_bottom .add_button {
+  color: #fe5f1e;
+  font-weight: 800;
+  border-radius: 30px;
+  border: 2px solid #fe5f1e;
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.menu_item .menu_item_bottom .add_button:hover {
+  transform: scale(1.05);
+}
+.menu_item .menu_item_bottom .price {
+  font-weight: 800;
+}
