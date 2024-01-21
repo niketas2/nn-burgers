@@ -35,3 +35,140 @@ body {
 		}
 	}
 }
+.cart_content {
+	text-align: center;
+	.cart_content_info {
+		padding: 0px 200px;
+		.cart_top {
+			display: flex;
+			justify-content: space-between;
+			.cart_top_left {
+				font-weight: 800;
+				font-size: 30px;
+				align-items: center;
+				margin-top: 100px;
+				display: flex;
+			}
+			.cart_top_right {
+				display: flex;
+				align-items: center;
+				margin-top: 100px;
+				a {
+					text-decoration: none;
+					color: #717171;
+					padding-left: 10px;
+					position: relative;
+					padding-left: 30px;
+				}
+				img {
+					width: 25px;
+					position: absolute;
+				}
+			}
+		}
+		.cart_item_info {
+			display: flex;
+			margin-top: 10px;
+			align-items: center;
+			justify-content: space-between;
+			h4 {
+				font-weight: 800;
+				font-size: 15px;
+			}
+			img {
+				max-width: 100px;
+			}
+			.add_delete {
+				display: flex;
+				gap: 20px;
+				font-weight: 900;
+				font-size: 30px;
+				color: #fe5f1e;
+				.add {
+					max-width: 40px;
+					height: 40px;
+					cursor: pointer;
+				}
+				.delete {
+					max-width: 40px;
+					height: 40px;
+					cursor: pointer;
+				}
+			}
+			.deleteItem {
+				max-width: 35px;
+				height: 35px;
+				cursor: pointer;
+				opacity: 0.2;
+			}
+			p {
+				font-weight: 700;
+			}
+		}
+		.item_delimiter {
+			margin-top: 10px;
+			width: 100%;
+			height: 1px;
+			border-radius: 2px;
+			background-color: #000;
+			opacity: 0.1;
+		}
+	}
+	.cart_bottom {
+		padding: 0 150px;
+		margin-top: 30px;
+		.cart_bottom_content {
+			display: flex;
+			justify-content: space-between;
+			.all_items {
+				display: flex;
+				gap: 5px;
+				font-size: 20px;
+				p {
+					font-weight: 700;
+				}
+			}
+			.sum_to_pay {
+				display: flex;
+				gap: 5px;
+				font-size: 20px;
+				.sum {
+					font-weight: 700;
+					color: #fe5f1e;
+				}
+			}
+		}
+		.buttons {
+			margin-top: 20px;
+			display: flex;
+			justify-content: space-between;
+			.pay {
+				text-decoration: none;
+				color: #fff;
+				font-weight: 800;
+				border-radius: 50px;
+				padding: 20px;
+				background-color: #fe5f1e;
+				border: 3px solid #fe5f1e;
+				transition: all 0.3s ease;
+				&:hover {
+					transform: scale(1.05);
+				}
+			}
+			.go_back {
+				opacity: 0.3;
+				text-decoration: none;
+				color: #717171;
+				font-weight: 800;
+				border-radius: 50px;
+				padding: 20px;
+				background-color: #fff;
+				border: 3px solid #717171;
+				transition: all 0.3s ease;
+				&:hover {
+					transform: scale(1.05);
+				}
+			}
+		}
+	}
+}
